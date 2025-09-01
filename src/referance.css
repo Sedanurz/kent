@@ -1,0 +1,221 @@
+/* Ana sayfa başlık arkaplanı */
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://images.pexels.com/photos/158826/structure-light-led-movement-158826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center center no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    position: relative;
+}
+
+/* Referans Kartları Temel Stili */
+.references-item {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.references-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Referans Resim Alanı */
+.references-img {
+    position: relative;
+    overflow: hidden;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; /* Tamamen beyaz arka plan */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05); /* Hafif gölge ile ayrım */
+}
+
+.references-img img {
+    max-width: 100%;
+    max-height: 110px;
+    object-fit: contain;
+    transition: all 0.5s ease;
+}
+
+.references-item:hover .references-img img {
+    transform: scale(1.05);
+}
+
+/* Overlay Efekti */
+.references-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 79, 149, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.references-item:hover .references-overlay {
+    opacity: 1;
+}
+
+/* Detay Butonu */
+.reference-btn {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-weight: 500;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.references-item:hover .reference-btn {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.reference-btn:hover {
+    background-color: #fff;
+    color: #004f95;
+}
+
+/* Modal Stilleri */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Daha koyu, opak arka plan */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050;
+}
+
+.modal-reference-container {
+    width: 90%;
+    max-width: 900px;
+    position: relative;
+    z-index: 1051;
+}
+
+.modal-reference-content {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-reference-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-reference-header h4 {
+    margin: 0;
+    color: #004f95;
+    font-weight: 600;
+}
+
+.modal-reference-body {
+    padding: a20px;
+}
+
+.reference-detail-image {
+    height: 350px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.reference-detail-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #ffffff; /* Tamamen beyaz arka plan */
+}
+
+.reference-detail-description {
+    padding: 15px 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reference-detail-description h5 {
+    color: #004f95;
+    margin-bottom: 12px;
+}
+
+.modal-reference-footer {
+    padding: 15px 20px;
+    border-top: 1px solid #e9ecef;
+    text-align: center;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.slide-indicator {
+    margin: 0 15px;
+    font-weight: bold;
+    color: #666;
+}
+
+/* Slider kontrol butonları */
+.slider-btn {
+    background-color: #004f95;
+    color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.slider-btn:hover {
+    background-color: #003d73;
+}
+
+/* Responsive düzenlemeler */
+@media (max-width: 767.98px) {
+    .modal-reference-body .row {
+        flex-direction: column;
+    }
+    
+    .reference-detail-image {
+        height: 200px;
+        margin-bottom: 15px;
+    }
+    
+    .references-img {
+        height: 120px;
+    }
+    
+    .references-img img {
+        max-height: 90px;
+    }
+}
+
+  
