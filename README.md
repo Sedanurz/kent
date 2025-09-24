@@ -34,7 +34,7 @@ To run the project on your local machine:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/username/kentled.com.git
+git clone https://github.com/Sedannurz/kentled.com.git
 
 # 2. Navigate into the project folder
 cd kentled.com
