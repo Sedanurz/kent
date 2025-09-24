@@ -1,31 +1,32 @@
 # 💡 kentled.com
 
-**kentled.com**, Kentled firmasının kurumsal web sitesidir.  
-Modern, kullanıcı dostu ve responsive bir tasarım anlayışıyla geliştirilmiştir.  
+**kentled.com** is the corporate website of Kentled company.  
+It has been developed with a modern, user-friendly, and fully responsive design approach.  
 
-Proje, **React.js**, **Bootstrap** ve **JavaScript** teknolojileri kullanılarak hazırlanmıştır.
+The project was built using **React.js**, **Bootstrap**, and **JavaScript** technologies.
 
-🌐 **Site Hakkında**  
-Bu proje, **Kentled** markasının dijital yüzünü temsil etmektedir.  
-Kullanıcıların firma hakkında bilgi almasını, hizmetleri incelemesini ve kolayca iletişim kurmasını sağlamak amacıyla tasarlanmıştır.
-
----
-
-## 🚀 Özellikler
-- React.js tabanlı modern yapı
-- Mobil, tablet ve masaüstü uyumlu responsive tasarım
-- Bootstrap ile hızlandırılmış modern UI bileşenleri
-- Dinamik içerik yönetimi için JavaScript entegrasyonu
-- Kullanıcı dostu ve sade arayüz
-- SEO uyumlu yapı
+🌐 **About the Site**  
+This project represents the **digital face of Kentled**.  
+It is designed to allow users to get information about the company, explore services, and easily get in touch.
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+## 🚀 Features
+- Modern structure powered by React.js
+- Fully responsive design (mobile, tablet, desktop)
+- Modern UI components accelerated with Bootstrap
+- JavaScript integration for dynamic content management
+- Clean and user-friendly interface
+- SEO-friendly structure
+
+---
+
+## 🛠️ Technologies Used
 - **React.js**
 - **Bootstrap 5**
 - **JavaScript (ES6+)**
 - **CSS3**
+
 - 
 ## 📁 Installation & Running Locally
 
