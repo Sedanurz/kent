@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 💡 kentled.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**kentled.com**, Kentled firmasının kurumsal web sitesidir.  
+Modern, kullanıcı dostu ve responsive bir tasarım anlayışıyla geliştirilmiştir.  
 
-## Available Scripts
+Proje, **React.js**, **Bootstrap** ve **JavaScript** teknolojileri kullanılarak hazırlanmıştır.
 
-In the project directory, you can run:
+🌐 **Site Hakkında**  
+Bu proje, **Kentled** markasının dijital yüzünü temsil etmektedir.  
+Kullanıcıların firma hakkında bilgi almasını, hizmetleri incelemesini ve kolayca iletişim kurmasını sağlamak amacıyla tasarlanmıştır.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Özellikler
+- React.js tabanlı modern yapı
+- Mobil, tablet ve masaüstü uyumlu responsive tasarım
+- Bootstrap ile hızlandırılmış modern UI bileşenleri
+- Dinamik içerik yönetimi için JavaScript entegrasyonu
+- Kullanıcı dostu ve sade arayüz
+- SEO uyumlu yapı
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Kullanılan Teknolojiler
+- **React.js**
+- **Bootstrap 5**
+- **JavaScript (ES6+)**
+- **CSS3**
+- 
+## 📁 Installation & Running Locally
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the project on your local machine:
 
-### `npm run build`
+```bash
+# 1. Clone the repository
+git clone https://github.com/username/kentled.com.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 2. Navigate into the project folder
+cd kentled.com
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 3. If using Node.js for contact form backend:
+npm install
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Open in browser:
+http://localhost:3000
 
-### `npm run eject`
+## 🤝 Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If you would like to contribute to the development, feel free to fork the repository, make your changes, and submit a pull request.  
+We welcome suggestions and improvements!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📞 Contact For access to the demo or any questions about this project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Developer: Seda Nur ZURNACI
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Email: sedanur.zurnaci@gmail.com
 
-## Learn More
+LinkedIn: linkedin.com/in/seda-nur-zurnacı
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: https://github.com/Sedanurz
